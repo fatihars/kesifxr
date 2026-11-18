@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <radialGradient id="badgeBg" cx="50%" cy="42%" r="58%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="82%" stop-color="#fff8eb"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </radialGradient>
+    <linearGradient id="goldRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcd34d"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <clipPath id="circleClip">
+      <circle cx="120" cy="120" r="106"/>
+    </clipPath>
+  </defs>
+
+  <!-- Outer golden emblem border -->
+  <circle cx="120" cy="120" r="115" fill="url(#goldRing)"/>
+  <circle cx="120" cy="120" r="106" fill="url(#badgeBg)"/>
+
+  <g clip-path="url(#circleClip)">
+    <!-- Soft sky & twinkling discovery stars -->
+    <circle cx="52" cy="48" r="3" fill="#f59e0b" opacity="0.75"/>
+    <circle cx="188" cy="44" r="3.2" fill="#f59e0b" opacity="0.75"/>
+    <circle cx="120" cy="30" r="2.6" fill="#38bdf8" opacity="0.8"/>
+
+    <!-- Boy (left) -->
+    <path d="M52,148 C52,126 70,116 86,116 C102,116 116,126 116,148 Z" fill="#2563eb"/>
+    <circle cx="84" cy="92" r="24" fill="#fcd5b5"/>
+    <!-- Boy hair -->
+    <path d="M59,90 C59,68 74,60 88,61 C103,62 110,74 109,88 C102,80 91,77 79,80 C70,82 64,86 59,90 Z" fill="#3b2314"/>
+    <circle cx="76" cy="93" r="2.6" fill="#1e293b"/>
+    <circle cx="92" cy="93" r="2.6" fill="#1e293b"/>
+    <path d="M77,103 Q84,109 91,103" fill="none" stroke="#b45309" stroke-width="2.6" stroke-linecap="round"/>
+
+    <!-- Girl (right) -->
+    <path d="M124,148 C124,126 140,116 156,116 C172,116 188,126 188,148 Z" fill="#fb7185"/>
+    <!-- Girl hair back & bangs -->
+    <ellipse cx="156" cy="94" rx="28" ry="27" fill="#7c2d12"/>
+    <circle cx="155" cy="92" r="23" fill="#fde0c6"/>
+    <path d="M132,88 C134,67 150,62 164,65 C175,68 180,78 179,88 C170,79 158,77 146,80 C139,82 135,85 132,88 Z" fill="#7c2d12"/>
+    <!-- Cute red hair ribbon -->
+    <circle cx="174" cy="72" r="6" fill="#ef4444"/>
+    <circle cx="182" cy="77" r="5" fill="#ef4444"/>
+    <circle cx="147" cy="93" r="2.5" fill="#1e293b"/>
+    <circle cx="163" cy="93" r="2.5" fill="#1e293b"/>
+    <path d="M148,103 Q155,109 162,103" fill="none" stroke="#b45309" stroke-width="2.6" stroke-linecap="round"/>
+
+    <!-- Open Heritage Storybook foreground -->
+    <path
+      d="M36,136 C68,126 98,130 120,145 C142,130 172,126 204,136 L194,194 C168,184 140,186 120,200 C100,186 72,184 46,194 Z"
+      fill="#0f172a"
+      stroke="#1e293b"
+      stroke-width="3"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M44,141 C72,132 98,136 118,150 L118,192 C98,180 72,178 51,187 Z"
+      fill="#ffffff"
+    />
+    <path
+      d="M196,141 C168,132 142,136 122,150 L122,192 C142,180 168,178 189,187 Z"
+      fill="#f8fafc"
+    />
+    <!-- Dark silhouette Anatolia / heritage book center panel -->
+    <path
+      d="M66,156 Q94,149 120,162 Q146,149 174,156 L170,178 Q144,170 120,182 Q96,170 70,178 Z"
+      fill="#0f172a"
+    />
+    <!-- Stylized white Anatolia map & crescent silhouette inside open book -->
+    <path
+      d="M84,166 C94,161 112,162 126,164 C138,162 150,164 157,168 C153,174 140,176 126,175 C112,175 96,176 84,172 Z"
+      fill="#ffffff"
+    />
+    <!-- Warm golden spine accent -->
+    <path d="M120,147 L120,196" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
